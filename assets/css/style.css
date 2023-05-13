@@ -1,106 +1,106 @@
 @font-face {
-    font-family: "poppins";
-    src: url(../font/Poppins-Regular.ttf);
+  font-family: "poppins";
+  src: url(Poppins-Regular.ttf);
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url(../font/Poppins-Bold.ttf);
-    font-weight: bold;
+  font-family: "poppins";
+  src: url(Poppins-Bold.ttf);
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: "courier";
-    src: url(../font/CourierPrime-Regular.ttf);
+  font-family: "courier";
+  src: url(CourierPrime-Regular.ttf);
 }
 
 @font-face {
-    font-family: "courier";
-    src: url(../font/CourierPrime-Bold.ttf);
-    font-weight: bold;
+  font-family: "courier";
+  src: url(CourierPrime-Bold.ttf);
+  font-weight: bold;
 }
 
 * {
-    font-family: "poppins";
-    color: white;
+  font-family: "poppins";
+  color: white;
 }
 
 body {
-    background-color: #18181C;
-    margin: 0;
-    padding: 0;
+  background-color: #000045;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    padding: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header {
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-header h1, header p{
-    margin: 0;
+header h1,
+header p {
+  margin: 0;
 }
-header p{
-    text-align: end;
-}
-
-
-.input_form{
-    display: flex;
-    flex-direction: column;
-    padding: 0 32px;
+header p {
+  text-align: end;
 }
 
-.input_form_top{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 48px;
+.input_form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
 }
 
-.input_form_bottom{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 48px;
+.input_form_top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
 }
 
-.algorithm, .key, .characters, .input_form_bottom div{
-    display: flex;
-    flex-direction: column;
+.input_form_bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
 }
 
-.input_form label{
-    margin-top: 16px;
-    margin-bottom: 4px;
+.algorithm,
+.key,
+.characters,
+.input_form_bottom div {
+  display: flex;
+  flex-direction: column;
 }
 
-.input_form select, .input_form input, .input_form textarea, .input_form option{
-    padding: 16px;
-    color: #18181C;
-    font-family: "courier";
-    font-size: 1.2em;
-}
-.input_form option{
-    font-size: 1em;
+.input_form label {
+  margin-top: 16px;
+  margin-bottom: 4px;
 }
 
-
-
-
-
-
-
-.input_form button{
-    font-weight: bold;
-    padding: 12px 36px;
-    border: none;
-    cursor: pointer;
-    background-color: #993b3b;
-    transition: background-color .4s ease;
-    display: block;
-    width: fit-content;
-    font-size: 1em;
-    margin-top: 16px;
+.input_form select,
+.input_form input,
+.input_form textarea,
+.input_form option {
+  padding: 16px;
+  color: #18181c;
+  font-family: "courier";
+  font-size: 1.2em;
 }
-.input_form button:hover{
-    background-color: #6d2020;
+.input_form option {
+  font-size: 1em;
+}
+
+.input_form button {
+  font-weight: bold;
+  padding: 12px 36px;
+  border: none;
+  cursor: pointer;
+  background-color: #993b3b;
+  transition: background-color 0.4s ease;
+  display: block;
+  width: fit-content;
+  font-size: 1em;
+  margin-top: 16px;
+}
+.input_form button:hover {
+  background-color: #6d2020;
 }
