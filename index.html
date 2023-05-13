@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRIPTOGRAFI</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CRYPTOGRAPHY</h1>
+        <p>
+            Kamila Richana Fauziyah <br>
+            Dywa Pratama Haswanto Putra
+        </p>
+    </header>
+    <main>
+        <div class="input_form">
+            <div class="input_form_top">
+                <div class="algorithm">
+                    <label for="algorithm">Algorithm</label>
+                    <select id="algorithm">
+                        <option value="caesar_cipher">Caesar Cipher</option>
+                        <option value="vigenere_cipher">Vigenere Cipher</option>
+                        <option value="scytale">Scytale / Permutation of Letter</option>
+                        <option value="super">Super Encryption</option>
+                    </select>
+                </div>
+                <div class="key">
+                    <label for="key">Key</label>
+                    <input type="number" id="key" value="0">
+                </div>
+                <div class="characters">
+                    <label for="characters">Characters</label>
+                    <select id="characters">
+                        <option value="0">A-Z</option>
+                        <option value="1">A-Z + a-z</option>
+                        <option value="2">A-Z + 0-9</option>
+                        <option value="3">A-Z + a-z + 0-9</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input_form_bottom">
+                <div>
+                    <label for="plaintext">Plaintext</label>
+                    <textarea id="plaintext" rows="10"></textarea>
+                    <button id="reset">RESET</button>
+                </div>
+                <div>
+                    <label for="ciphertext">Ciphertext</label>
+                    <textarea id="ciphertext" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
